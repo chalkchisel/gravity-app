@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
 @class GVYKnockoutButton;
 
-@interface GVYMainViewController : UIViewController
+@interface GVYMainViewController : UIViewController <CLLocationManagerDelegate>
 
 
 @end

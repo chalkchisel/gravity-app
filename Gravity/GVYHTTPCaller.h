@@ -13,10 +13,6 @@
 
 @interface GVYHTTPCaller : NSObject
 
-
-
--(void) getGravity:(NSString *) string;
-
-
+-(RACSignal*)getGravity:(NSString *)string;
 
 @end

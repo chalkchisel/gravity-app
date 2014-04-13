@@ -17,4 +17,6 @@
 - (BOLAnimation*)animateInAnimation:(BOOL)isSimultaneous;
 - (BOLAnimation*)animateOutAnimation:(BOOL)isSimultaneous;
 
+- (void)setTextForLabel:(NSString*)text;
+
 @end

@@ -44,7 +44,7 @@
 		CGContextSetBlendMode(context, kCGBlendModeDestinationOut);
 
 		CGFloat fontSize;
-		CGSize textSize = [self.labelText sizeWithFont:[UIFont fontWithName:@"GothamRounded-Book" size:30.f] minFontSize:15.f actualFontSize:&fontSize forWidth:CGRectInset(self.bounds, 10, 10).size.width lineBreakMode:UILineBreakModeTailTruncation];
+		CGSize textSize = [self.labelText sizeWithFont:[UIFont fontWithName:@"GothamRounded-Book" size:30.f] minFontSize:15.f actualFontSize:&fontSize forWidth:CGRectInset(self.bounds, 10, 10).size.width lineBreakMode:UILineBreakModeWordWrap];
 
 		CGPoint drawPoint = CGPointMake((self.bounds.size.width - textSize.width) / 2.f, (self.bounds.size.height - fontSize) / 2.f);
 

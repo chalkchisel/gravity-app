@@ -26,6 +26,11 @@
 		664DBC4318FAECA7000F51F2 /* GVYTextIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 664DBC4218FAECA7000F51F2 /* GVYTextIconView.m */; };
 		664DBC4618FAF1D7000F51F2 /* Eurostile Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 664DBC4418FAF1D7000F51F2 /* Eurostile Bold.otf */; };
 		664DBC4718FAF1D7000F51F2 /* Eurostile.otf in Resources */ = {isa = PBXBuildFile; fileRef = 664DBC4518FAF1D7000F51F2 /* Eurostile.otf */; };
+		6672DE1C18FB037F00D83A5D /* GVYCitation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6672DE1518FB037F00D83A5D /* GVYCitation.m */; };
+		6672DE1D18FB037F00D83A5D /* GVYDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6672DE1718FB037F00D83A5D /* GVYDateFormatter.m */; };
+		6672DE1E18FB037F00D83A5D /* GVYHTTPCaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 6672DE1918FB037F00D83A5D /* GVYHTTPCaller.m */; };
+		6672DE1F18FB037F00D83A5D /* GVYResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 6672DE1B18FB037F00D83A5D /* GVYResult.m */; };
+		6672DE2218FB058300D83A5D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6672DE2118FB058300D83A5D /* CoreLocation.framework */; };
 		669D181B18F9B39400EA034B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669D181A18F9B39400EA034B /* Foundation.framework */; };
 		669D181D18F9B39400EA034B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669D181C18F9B39400EA034B /* CoreGraphics.framework */; };
 		669D181F18F9B39400EA034B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669D181E18F9B39400EA034B /* UIKit.framework */; };
@@ -79,6 +84,15 @@
 		664DBC4218FAECA7000F51F2 /* GVYTextIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVYTextIconView.m; sourceTree = "<group>"; };
 		664DBC4418FAF1D7000F51F2 /* Eurostile Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eurostile Bold.otf"; sourceTree = "<group>"; };
 		664DBC4518FAF1D7000F51F2 /* Eurostile.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Eurostile.otf; sourceTree = "<group>"; };
+		6672DE1418FB037F00D83A5D /* GVYCitation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVYCitation.h; sourceTree = "<group>"; };
+		6672DE1518FB037F00D83A5D /* GVYCitation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVYCitation.m; sourceTree = "<group>"; };
+		6672DE1618FB037F00D83A5D /* GVYDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVYDateFormatter.h; sourceTree = "<group>"; };
+		6672DE1718FB037F00D83A5D /* GVYDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVYDateFormatter.m; sourceTree = "<group>"; };
+		6672DE1818FB037F00D83A5D /* GVYHTTPCaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVYHTTPCaller.h; sourceTree = "<group>"; };
+		6672DE1918FB037F00D83A5D /* GVYHTTPCaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVYHTTPCaller.m; sourceTree = "<group>"; };
+		6672DE1A18FB037F00D83A5D /* GVYResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVYResult.h; sourceTree = "<group>"; };
+		6672DE1B18FB037F00D83A5D /* GVYResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVYResult.m; sourceTree = "<group>"; };
+		6672DE2118FB058300D83A5D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		669D181718F9B39400EA034B /* Gravity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gravity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669D181A18F9B39400EA034B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		669D181C18F9B39400EA034B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -104,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6672DE2218FB058300D83A5D /* CoreLocation.framework in Frameworks */,
 				669D181D18F9B39400EA034B /* CoreGraphics.framework in Frameworks */,
 				669D181F18F9B39400EA034B /* UIKit.framework in Frameworks */,
 				669D181B18F9B39400EA034B /* Foundation.framework in Frameworks */,
@@ -204,6 +219,21 @@
 			name = GVYKnockoutButton;
 			sourceTree = "<group>";
 		};
+		6672DE1318FB036400D83A5D /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				6672DE1418FB037F00D83A5D /* GVYCitation.h */,
+				6672DE1518FB037F00D83A5D /* GVYCitation.m */,
+				6672DE1618FB037F00D83A5D /* GVYDateFormatter.h */,
+				6672DE1718FB037F00D83A5D /* GVYDateFormatter.m */,
+				6672DE1818FB037F00D83A5D /* GVYHTTPCaller.h */,
+				6672DE1918FB037F00D83A5D /* GVYHTTPCaller.m */,
+				6672DE1A18FB037F00D83A5D /* GVYResult.h */,
+				6672DE1B18FB037F00D83A5D /* GVYResult.m */,
+			);
+			name = Backend;
+			sourceTree = "<group>";
+		};
 		669D180E18F9B39400EA034B = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +257,7 @@
 		669D181918F9B39400EA034B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6672DE2118FB058300D83A5D /* CoreLocation.framework */,
 				669D181A18F9B39400EA034B /* Foundation.framework */,
 				669D181C18F9B39400EA034B /* CoreGraphics.framework */,
 				669D181E18F9B39400EA034B /* UIKit.framework */,
@@ -239,6 +270,7 @@
 		669D182018F9B39400EA034B /* Gravity */ = {
 			isa = PBXGroup;
 			children = (
+				6672DE1318FB036400D83A5D /* Backend */,
 				664DBC2018F9CF32000F51F2 /* Contrib */,
 				664DBC2418F9CFCB000F51F2 /* Views */,
 				664DBC0D18F9B5B5000F51F2 /* View Controllers */,
@@ -429,7 +461,11 @@
 				664DBC2318F9CF6D000F51F2 /* Common.m in Sources */,
 				669D182718F9B39400EA034B /* main.m in Sources */,
 				669D182B18F9B39400EA034B /* GVYAppDelegate.m in Sources */,
+				6672DE1C18FB037F00D83A5D /* GVYCitation.m in Sources */,
+				6672DE1E18FB037F00D83A5D /* GVYHTTPCaller.m in Sources */,
 				664DBC3C18F9E6DD000F51F2 /* GVYAnimatedIconView.m in Sources */,
+				6672DE1D18FB037F00D83A5D /* GVYDateFormatter.m in Sources */,
+				6672DE1F18FB037F00D83A5D /* GVYResult.m in Sources */,
 				664DBC3618F9DEBA000F51F2 /* GVYKnockoutTextView.m in Sources */,
 				669D183118F9B39400EA034B /* GVYMainViewController.m in Sources */,
 			);

@@ -59,6 +59,11 @@
 }
 */
 
+- (void)setTextForLabel:(NSString*)text
+{
+	self.lbl.text = text;
+}
+
 - (void)updateConstraints
 {
 	[super updateConstraints];
@@ -102,18 +107,18 @@
 
 - (BOLAnimation*)animateOutAnimation:(BOOL)isSimultaneous
 {
-	[self.iconCenterConstraint uninstall];
-	[self.lblCenterConstraint uninstall];
-
-	[self.iconView updateConstraints:^(MASConstraintMaker *make) {
-		make.centerY.equalTo(self).with.offset(self.offset);
-	}];
-
-	[self.lbl updateConstraints:^(MASConstraintMaker *make) {
-		make.centerY.equalTo(self).with.offset(self.offset);
-	}];
-
 	return [BOLAnimation animationWithDuration:.5f delay:0.0f options:0 animations:^{
+		[self.iconCenterConstraint uninstall];
+		[self.lblCenterConstraint uninstall];
+
+		[self.iconView updateConstraints:^(MASConstraintMaker *make) {
+			make.centerY.equalTo(self).with.offset(self.offset);
+		}];
+
+		[self.lbl updateConstraints:^(MASConstraintMaker *make) {
+			make.centerY.equalTo(self).with.offset(self.offset);
+		}];
+
 		[self layoutIfNeeded];
 	} simultaneous:isSimultaneous];
 }
