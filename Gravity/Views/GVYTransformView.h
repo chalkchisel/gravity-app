@@ -1,5 +1,5 @@
 //
-//  GVYViewController.h
+//  GVYTransformView.h
 //  Gravity
 //
 //  Created by Adam Miskiewicz on 4/12/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GVYViewController : UIViewController
+@interface GVYTransformView : UIView
 
 @end
