@@ -7,3 +7,5 @@ platform :ios, '7.0'
 inhibit_all_warnings!
 
 pod 'AFNetworking', :git => 'https://github.com/bolster/AFNetworking.git', :inhibit_warnings => true
+pod 'Masonry'
+pod 'ReactiveCocoa'
